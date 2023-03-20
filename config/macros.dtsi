@@ -2,13 +2,13 @@ macro_tab_prev: macro_tab_prev{
 compatible = "zmk,behavior-macro";
 label = "macro_tab_prev";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp TAB>;
+bindings = <&sk LEFT_SHIFT>, <&kp TAB>;
 };
 macro_tab_next: macro_tab_next{
 compatible = "zmk,behavior-macro";
 label = "macro_tab_next";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp TAB>;
+bindings = <&kp TAB>;
 };
 macro_mac_language: macro_mac_language{
 compatible = "zmk,behavior-macro";
