@@ -79,11 +79,11 @@
 
         layer_SUPER {
             bindings = <
- &trans  &trans          &trans          &trans           &trans   &trans            &trans                                                                            &trans  &trans           &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
- &trans  &trans          &trans    &kp UP_ARROW           &trans   &trans            &trans                                                                            &trans  &trans           &trans    &trans             &trans           &trans  &trans
- &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F12            &trans  &trans  &trans  &trans  &trans  &trans               &trans               &trans  &trans           &trans    &trans             &trans           &trans  &trans
- &trans  &trans          &trans          &trans           &trans   &trans            &trans  &trans  &trans  &trans  &trans  &trans               &trans               &trans  &trans           &trans  &kp HOME             &trans           &trans  &trans
- &trans  &trans          &trans          &trans           &trans                     &trans  &trans  &trans                  &trans  &macro_mac_language  &macro_win_language          &macro_tab_prev   &kp END    &macro_tab_next           &trans  &trans
+ &trans  &trans          &trans          &trans           &trans   &trans                     &trans                                                                            &trans  &trans         &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP           &trans
+ &trans  &trans          &trans    &kp UP_ARROW           &trans   &trans            &macro_brackets                                                                            &trans  &trans         &trans  &trans             &trans           &trans           &trans
+ &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans               &trans               &trans  &trans         &trans  &trans             &trans           &trans           &trans
+ &trans  &trans          &trans          &trans           &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans               &trans               &trans  &trans         &trans  &trans             &trans         &kp HOME           &trans
+ &trans  &trans          &trans          &trans           &trans                              &trans  &trans  &trans                  &trans  &macro_mac_language  &macro_win_language          &macro_quotes  &trans    &macro_tab_prev          &kp END  &macro_tab_next
             >;
         };
 
