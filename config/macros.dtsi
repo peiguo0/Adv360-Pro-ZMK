@@ -14,7 +14,7 @@ macro_mac_language: macro_mac_language{
 compatible = "zmk,behavior-macro";
 label = "macro_mac_language";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL SPACE>;
+bindings = <&sk LEFT_CONTROL>, <&kp SPACE>;
 };
 macro_win_language: macro_win_language{
 compatible = "zmk,behavior-macro";
